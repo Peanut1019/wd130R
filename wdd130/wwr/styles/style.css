@@ -33,11 +33,65 @@ h2 {
 h4 {
     color: #424246;
 }
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+  
+    border: 1px solid #999;
+  }
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  .button {
+    padding-left: 90px;
+  }
+  button {
+    margin-left: 0.5em;
+  }
 #background {
     background-color: #B9C7B2;
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
 }
 #hero {
     max-width: 1600px;
@@ -181,6 +235,9 @@ h4 {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.moveDown {
+    margin-top: 3em;
 }
 .msg {
     background-color: #424246;
