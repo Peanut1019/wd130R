@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza|Dosis');
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+  }
+p {
+    font-family: "Dosis", Helvetica, sans-serif;;
+    color: #261305;
+    padding: 3px;
+    font-size: 16px;
+  }
+header {
+    background-color:#9C5317;
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%; 
+    height: 100px; 
+    grid-column: 1/3; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #261305;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #7E8133;
+    color: #FDFFFC;
+    height: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Belleza";
+    color: #261305;
+  }
+h2 {
+    margin: 0;
+}
+.home-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.ingredients {
+ grid-column: 2/3;
+ grid-row: 2/3;
+}
+.link_img {
+    height: 300px;
+    width: auto;
+    padding: 1em;
+}
+.logo {
+    width: 175px;
+}
+.name {
+    grid-column: 1/4;
+}
+.process {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.rec-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+ul {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    list-style: none;
+}
+ol {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: left;
+}
+.rec_img {
+    height: 200px;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-left: 50px;
+}
+.or {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.search {
+    width: 300px;
+    height: 60px;
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.magnifier {
+    height: 60px;
+    width: 60px;
+}
