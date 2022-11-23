@@ -103,3 +103,19 @@ ol {
     height: 60px;
     width: 60px;
 }
+footer {
+    background-color: #7E8133;
+    padding: 10px 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #261305;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FDFFFC;
+    background-color: #9C5317;
+}
