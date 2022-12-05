@@ -5,7 +5,7 @@ body {
     text-align: center;
   }
 p {
-    font-family: "Dosis", Helvetica, sans-serif;;
+    font-family: "Dosis", Helvetica, sans-serif;
     color: #261305;
     padding: 3px;
     font-size: 16px;
@@ -27,6 +27,7 @@ nav a {
     color: #261305;
     text-decoration: none;
     padding: 35px;
+    font-family: "Belleza";
 }
 nav a:hover {
     background-color: #7E8133;
@@ -34,7 +35,7 @@ nav a:hover {
     height: 100px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Belleza";
+    font-family: "Belleza", Helvetica, sans-serif;
     color: #261305;
   }
 h2 {
@@ -94,14 +95,13 @@ ol {
     grid-row: 4/5;
 }
 .search {
-    width: 300px;
-    height: 60px;
     grid-row: 5/6;
     grid-column: 2/3;
 }
 .magnifier {
-    height: 60px;
-    width: 60px;
+    float: right;
+    height: 15px;
+    width: 15px;
 }
 footer {
     background-color: #7E8133;
